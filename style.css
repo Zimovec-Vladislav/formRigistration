@@ -8,3 +8,11 @@ body {
 
     background-color: #073863;
 }
+
+    /* Auth */
+
+.auth {
+    width: 300px;
+    padding: 20px;
+    background-color: aliceblue;
+}

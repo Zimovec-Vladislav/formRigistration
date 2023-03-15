@@ -9,12 +9,43 @@
 
     <div class='auth'>
         <h1 class="auth-title">Регистрация</h1>
-
         <form action="/" method="post">
-            <input class="input" type="text" name="name" placeholder="Ваше полное имя">
+
+           <div class="form-group">
+               <input class="input" type="text" name="name" placeholder="Ваше полное имя">
+           </div>
+
+           <div class="form-group">
+                <input class="input" type="email" name="email" placeholder="Ваш e-mail">
+           </div >
+
+           <div class="form-group">
+                <input class="input" type="tel" name="phone" placeholder="Ваш номер телефона">
+           </div>
+
+           <div class="form-group">
+                <input class="input" type="password" name="password" placeholder="Придумайте пароль">
+           </div>
+
+           <div class="form-group">
+                <input class="input" type="password_confirm" name="password" placeholder="Повторите пароль">
+           </div>
+
+           <div class="form-group">
+               <select class="select" name="city">
+                   <option value="sevastopol">Севастополь</option>
+                   <option value="yalta">Ялта</option>
+               </select>
+           </div>
+
+           <div class="form-group">
+               <input type="checkbox" name="rules" id="rules">
+               <label for="rules">Принимаю условия пользования</label>
+           </div>
+
+           <button class="button" type="submit">Готово</button>
+
         </form>
-
     </div>
-
     </body>
 </html>

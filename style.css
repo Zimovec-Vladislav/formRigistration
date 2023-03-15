@@ -23,12 +23,94 @@ body {
     margin: 0;
     margin-bottom: 10px;
     font-size: 20px;
-    color: #121212;
+    color: #073863;
 }
 
     /* Input */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
 .input  {
     display: block;
-    padding: 8px 0px 8px 0px;
-    width: 260px;
+    padding: 8px 10px 8px;
+    width: 238px;
+
+    border: 1px solid #ccc;
+
+    font-family: inherit;
+    font-family: 15px;
+
+    background-color: white;
 }
+
+.input:focus {
+    outline: 1px solid #073863;
+    border-color: #073863;
+}
+
+    /*Select*/
+
+.select {
+    display: block;
+    padding: 8px 10px 8px;
+    width: 259px;
+    height: 35px;
+
+    border: 1px solid #ccc;
+
+    font-family: inherit;
+    font-family: 15px;
+
+    background-color: white;
+}
+
+.select:focus {
+    outline: 1px solid #073863;
+    border-color: #073863;
+}
+
+    /*    Button    */
+.button {
+    display: block;
+    width: 260px;
+    padding: 7px;
+
+    border: 0;
+
+    font-family: inherit;
+    font-family: 15px;
+
+    background-color: #00a533;
+    color: #fffefe;
+
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.button:focus,
+.button:hover {
+    background-color: #008e2c;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #007223;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
